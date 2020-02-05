@@ -22,13 +22,13 @@ class App extends React.Component {
   render() {
   return (
     <div className="App">
-    <div class="container">
+    <div className="container">
       <div className="card ml-0 mr-0 m-auto data">
         <img className="card-img-top img-fluid" src={this.props.img}  alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title">{this.props.name}</h5>
           <p className="card-text">Nom d'utilisateur : {this.props.username}</p>
-          <p clas="card-text">Mot de passe : {this.props.mdp}</p>
+          <p className="card-text">Mot de passe : {this.props.mdp}</p>
           <a href="https://tinder.com" className="btn btn-primary">Accéder à son profil</a>
         </div>
       </div>
