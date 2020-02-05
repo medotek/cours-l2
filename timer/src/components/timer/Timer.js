@@ -28,7 +28,7 @@ class Timer extends React.Component {
   
   
   render () {
-    if (this.state.seconds <= 2) {
+    if (this.state.seconds < 2) {
       this.s = "";
     } else {
       this.s = "s";      
