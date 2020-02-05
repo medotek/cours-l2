@@ -12,12 +12,6 @@ import React from 'react';
 // console.log("d: " + request);
 // const data = JSON.parse(request);
 // console.log(data);
-
-
-/// SI CA NE MARCHE PAS ___
-
-
-
 const data = {
     "results": [{
         "gender": "female",
