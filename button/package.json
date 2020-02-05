@@ -7,7 +7,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-google-maps": "^9.4.5",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^3.3.1",
+    "yarn": "^1.21.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,5 +30,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "La page présente un bouton. On peut activer ce dernier en cliquant dessus. L'activation est visible par un changement de couleur.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "medotek",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medotek/cours-l2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/medotek/cours-l2/issues"
+  },
+  "homepage": "https://github.com/medotek/cours-l2#readme"
 }
