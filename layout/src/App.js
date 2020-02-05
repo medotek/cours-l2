@@ -14,7 +14,8 @@ class App extends React.Component {
     
   }
   
-  constructor() {
+  constructor(props) {
+    super(props)
     
   }
   
