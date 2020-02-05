@@ -12,7 +12,12 @@ class App extends React.Component {
     username: data['results'][0].login['username'],
     img: data['results'][0].picture['thumbnail']
     
-  } 
+  }
+  
+  constructor() {
+    
+  }
+  
   render() {
   return (
     <div className="App">
