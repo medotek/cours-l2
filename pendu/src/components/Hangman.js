@@ -19,6 +19,10 @@ class Hangman extends Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      answer: '',
+      mistake: false
+    }
   }
 
   componentDidMount() {
